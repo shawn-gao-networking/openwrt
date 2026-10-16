@@ -18,5 +18,15 @@
   },
   "git.autorefresh": false,
   "git.autoRepositoryDetection": false,
-  "C_Cpp.intelliSenseEngine": "Tag Parser"
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+
+  "git.alwaysSignOff": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.eol": "\n",
+
+  "[diff]": {
+    "files.trimTrailingWhitespace": false
+  }
 }
