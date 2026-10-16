@@ -116,10 +116,14 @@
 };
 
 &usb_0 {
+	dr_mode = "host";
+
 	status = "okay";
 };
 
 &usb_1 {
+	dr_mode = "host";
+
 	status = "okay";
 };
 
@@ -254,6 +258,7 @@
 			label = "wan";
 			phy-handle = <&aqr113c>;
 			phy-mode = "usxgmii";
+			managed = "in-band-status";
 			pcs-handle = <&uniphy2 0>;
 		};
 	};
